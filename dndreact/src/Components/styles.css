@@ -1,0 +1,46 @@
+/* styles.css */
+.draggable-item {
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #f4f4f4;
+    /* border: 1px solid #ccc; */
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .draggable-item:hover {
+    background-color: #e0e0e0;
+  }
+  
+
+  .cards {
+    width: 300px;
+    height: 600px;
+    margin-left: 20px;
+    padding: 10px;
+    overflow: auto; /* Ensure container is scrollable if necessary */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  /* board.css */
+  .column {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .card {
+    margin-top: 10px;
+  }
+  
+  h4 {
+    text-align: center;
+    text-transform: capitalize;
+  }
+  
+  .container {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+  

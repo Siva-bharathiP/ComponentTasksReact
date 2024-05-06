@@ -1,0 +1,29 @@
+/* .column{
+    display: flex;
+    flex-direction: row;
+    
+    }
+    .card{
+       margin-top: 10px;
+       
+    }
+    .cards{
+        width: 300px;
+        height: 400px;
+        margin-left: 20px;
+        padding: 10px;
+        
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    
+    h4{
+        text-align: center;
+        text-transform: capitalize;
+    
+    }
+    .container{
+                width: 100%;
+                height: auto;
+                padding: 1rem;
+                border-radius: 0.5rem;         
+    } */
