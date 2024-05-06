@@ -1,0 +1,46 @@
+*{
+    background-color: black;
+    color: white;
+}
+.toggle-switch-container {
+    display: inline-block;
+    position: relative;
+    top: 320px;
+    left: 40%;
+  }
+  
+  .toggle-switch-container input[type="checkbox"] {
+    display: none;
+  }
+  
+  .toggle-switch-container .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    background-color: #ccc;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-switch-container .switch::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 26px;
+    height: 26px;
+    background-color: white;
+    border-radius: 50%;
+    transition: left 0.3s ease;
+  }
+  
+  .toggle-switch-container input[type="checkbox"]:checked + .switch::after {
+    left: 30px;
+  }
+  
+  .toggle-switch-container input[type="checkbox"]:checked + .switch {
+    background-color: #4CAF50;
+  }
+  
